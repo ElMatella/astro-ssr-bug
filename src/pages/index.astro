@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SomeComponent from '../components/SomeComponent.vue'
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<SomeComponent client:load></SomeComponent>
+	</main>
+</Layout>
